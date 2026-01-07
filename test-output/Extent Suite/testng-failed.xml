@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Extent Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.app.resuse.TestOne"/>
+  </listeners>
+  <test thread-count="5" name="Extent Tests(failed)">
+    <classes>
+      <class name="com.app.resuse.Test_Sample">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- com.app.resuse.Test_Sample -->
+    </classes>
+  </test> <!-- Extent Tests(failed) -->
+</suite> <!-- Failed suite [Extent Suite] -->
