@@ -26,11 +26,10 @@ public class ExcelRead {
 	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://adactinhotelapp.com");
-		//Changes made by test1
+		//Changes made by test2
 		driver.findElement(By.id("username")).sendKeys(excel_reuse(0,1));
 		driver.findElement(By.id("password")).sendKeys(excel_reuse(1,1));
-		driver.findElement(By.id("login")).click();
-		//copied username, password and login webelements for testing purpose
+		
 		driver.manage().window().maximize();
 		driver.findElement(By.id("username")).sendKeys(excel_reuse(0,1));
 		driver.findElement(By.id("password")).sendKeys(excel_reuse(1,1));
