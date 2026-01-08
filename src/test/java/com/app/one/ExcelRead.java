@@ -54,6 +54,10 @@ public class ExcelRead {
 		Thread.sleep(1000);
 		driver.findElement(By.name("cc_type")).sendKeys(excel_reuse(14, 1));
 		Thread.sleep(1000);
+		//Changes made by tester1
+		driver.findElement(By.name("cc_type")).sendKeys(excel_reuse(14, 1));
+		Thread.sleep(1000);
+		
 		driver.findElement(By.name("cc_exp_month")).sendKeys(excel_reuse(15, 1));
 		Thread.sleep(1000);
 		driver.findElement(By.name("cc_exp_year")).sendKeys(excel_reuse(16, 1));
